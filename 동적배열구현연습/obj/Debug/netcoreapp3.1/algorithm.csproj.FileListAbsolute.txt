@@ -1,0 +1,12 @@
+/Users/kimhyeok/Projects/algoritm/algoritm/bin/Debug/netcoreapp3.1/algorithm.deps.json
+/Users/kimhyeok/Projects/algoritm/algoritm/bin/Debug/netcoreapp3.1/algorithm.runtimeconfig.json
+/Users/kimhyeok/Projects/algoritm/algoritm/bin/Debug/netcoreapp3.1/algorithm.runtimeconfig.dev.json
+/Users/kimhyeok/Projects/algoritm/algoritm/bin/Debug/netcoreapp3.1/algorithm.dll
+/Users/kimhyeok/Projects/algoritm/algoritm/bin/Debug/netcoreapp3.1/algorithm.pdb
+/Users/kimhyeok/Projects/algoritm/algoritm/obj/Debug/netcoreapp3.1/algorithm.AssemblyInfoInputs.cache
+/Users/kimhyeok/Projects/algoritm/algoritm/obj/Debug/netcoreapp3.1/algorithm.AssemblyInfo.cs
+/Users/kimhyeok/Projects/algoritm/algoritm/obj/Debug/netcoreapp3.1/algorithm.csproj.CoreCompileInputs.cache
+/Users/kimhyeok/Projects/algoritm/algoritm/obj/Debug/netcoreapp3.1/algorithm.dll
+/Users/kimhyeok/Projects/algoritm/algoritm/obj/Debug/netcoreapp3.1/algorithm.pdb
+/Users/kimhyeok/Projects/algoritm/algoritm/obj/Debug/netcoreapp3.1/algorithm.genruntimeconfig.cache
+/Users/kimhyeok/Projects/algoritm/algoritm/obj/Debug/netcoreapp3.1/algorithm.csprojAssemblyReference.cache
