@@ -1,0 +1,49 @@
+using System;
+using System.Collections.Generic;
+
+namespace Array_1
+{
+    class Program
+    {
+        class Monster
+        {
+            public int id;
+            public Monster(int id) { this.id = id; }
+            
+        }
+        static void Main(string[] args)
+        {
+            List<int> list = new List<int>();
+
+            // Hashtable 기법 사용
+            // 아주 큰 박스 [ , , , , , , , , ] 1만개 (1 ~ 1만)
+            // 박스 여러개를 쪼개 놓는다. [1~10] [11~20] [] [] [] [] [] [] 1천개
+            // 7777번 공 어디?
+            // 777 번째 상자 
+            // 메모리 손해
+            // [ 메모리를 내주고, 성능을 취한다 ] 
+
+            // ID 식별자
+            // 10(공격) 103(몬스터번호) ID 몬스터 공격
+
+            // Key -> Value
+            // Dictionary
+
+            // Key를 알면 Value 를 빠르게 찾을수 있다 (key : int, Value : Monster)
+            Dictionary<int, Monster> dic = new Dictionary<int, Monster>();
+            for (int i = 0; i < 10000; i++)
+            {
+                dic.Add(i, new Monster(i));
+            }
+
+            // Key 로 찾는 방식
+            Monster mon;
+            bool found = dic.TryGetValue(20000, out mon);
+
+
+            // 삭제 key 에해당하는 정보 삭제
+            dic.Remove(7777);
+            dic.Clear();
+        }
+    }
+}
